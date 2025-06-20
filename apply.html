@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apply for Electricity</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Apply for Electricity Service</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="services.html">Services</a>
+      <a href="apply.html">Apply</a>
+      <a href="help.html">Help</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <main>
+    <form action="apply.html" method="post">
+      <label>Full Name: <input type="text" name="name"></label><br><br>
+
+      <label>Service Plan:
+        <select name="plan">
+          <option>Basic</option>
+          <option>Standard</option>
+          <option>Business</option>
+        </select>
+      </label><br><br>
+
+      <label>Gender:
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+      </label><br><br>
+
+      <label>Preferred Contact Method:<br>
+  <label for="phone">Phone:</label>
+  <input type="tel" id="phone" name="phone"><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+      </label><br><br>
+
+      <label>Additional Comments:<br>
+        <textarea name="comment" rows="4" cols="30"></textarea>
+      </label><br><br>
+
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MOHA-Power Electric</p>
+    <a href="services.html"><br><br><br><button>RETURN</button></a>
+  </footer>
+</body>
+</html>
